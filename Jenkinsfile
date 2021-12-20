@@ -11,6 +11,13 @@
             sh 'gcloud auth activate-service-account --key-file=${GC_KEY}'
             sh ("gcloud container clusters get-credentials pjt-an3-gketest-dev-gke --region asia-northeast1 --project pjt-an3-gketest-dev")
             sh ("/usr/local/bin/kubectl apply -f rbac.yaml")
+            sh ("/usr/local/bin/kubectl apply -f elk.yaml")
+            sh ("/usr/local/bin/kubectl apply -f elk-service.yaml")
+            sh ("/usr/local/bin/kubectl apply -f logstash-config.yaml")
+            sh ("/usr/local/bin/kubectl apply -f logstash-deployment.yaml")
+            sh ("/usr/local/bin/kubectl apply -f logstash-service.yaml")
+            sh ("/usr/local/bin/kubectl apply -f filebeat.yaml")
+            sh ("/usr/local/bin/kubectl apply -f kibana.yaml")
             
                  }
           
