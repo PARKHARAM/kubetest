@@ -28,4 +28,4 @@ data:
     <p><em>Thank you for using nginx.</em></p>
     </body>
     </html>
-  test2.html: | /var/lib/jenkins/workspace/k8s_deploy/test2.html
+  test2.html: | cat /var/lib/jenkins/workspace/k8s_deploy/test2.html
