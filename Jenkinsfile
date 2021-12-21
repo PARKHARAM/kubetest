@@ -21,6 +21,7 @@
             sh ("/usr/local/bin/kubectl apply -f nginx.yaml")
             sh ("/usr/local/bin/kubectl apply -f nginx-service.yaml")
             sh ("/usr/local/bin/kubectl apply -f index-html-configmap.yaml")
+            sh ("/usr/local/bin/kubectl apply -f rollout restart deployment nginx-deployment")
 
             
                  }
