@@ -18,8 +18,8 @@
             sh ("/usr/local/bin/kubectl apply -f logstash-service.yaml")
             sh ("/usr/local/bin/kubectl apply -f filebeat.yaml")
             sh ("/usr/local/bin/kubectl apply -f kibana.yaml")
-            sh ("/usr/local/bin/kubectl apply -f nginx.yaml")
-            sh ("/usr/local/bin/kubectl apply -f nginx-service.yaml")
+            sh ("/usr/local/bin/kubectl apply -f nginx-test.yaml")
+            
 
             
                  }
