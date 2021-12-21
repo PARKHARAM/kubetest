@@ -28,4 +28,4 @@ data:
     <p><em>Thank you for using nginx.</em></p>
     </body>
     </html>
-  test2.html: | test2.html
+  test2.html: | cat test2.html
