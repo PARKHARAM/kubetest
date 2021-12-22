@@ -64,3 +64,6 @@ data:
     <p><em>Thank you for using nginx.</em></p>
     </body>
     </html>
+
+
+fromfile: ./opps.html
