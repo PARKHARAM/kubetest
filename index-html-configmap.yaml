@@ -11,8 +11,8 @@ data:
     <h1>Hello! This is a configmap Index file </h1>
     <button onclick="window.location.href='https://www.naver.com'">NAVER</button>
     <button onclick="goBack()">page before </button>
-    <button onclick="window.location.href='34.84.96.196/index2.html'">index2</button>
-    <button onclick="window.location.href='34.84.96.196/test5.html'">index2</button>
+    <button onclick="window.location.href='index2.html'">index2</button>
+    <button onclick="window.location.href='test5.html'">test5</button>
     <script>
     function goBack() {
       window.history.back();
