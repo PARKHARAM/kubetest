@@ -10,7 +10,7 @@ data:
     </br>
     <h1>Hello! This is a configmap Index file </h1>
     <button onclick="window.location.href='https://www.naver.com'">HOME</button>
-    <button onclick="goBack()">앞쪽 페이지로</button>
+    <button onclick="goBack()">page before </button>
     <script>
     function goBack() {
       window.history.back();
