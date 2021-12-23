@@ -9,6 +9,7 @@ data:
     <h1>Welcome</h1>
     </br>
     <h1>Hello! This is a configmap Index file </h1>
+    <button onclick="window.location.href='https://ojji.wayful.com'">HOME</button>
     </html
   test.html: |
     <!DOCTYPE html>
