@@ -74,7 +74,7 @@ data:
     function goBack() {
       window.history.back();
     }
-    </script>
+  </script>
 
     <p><em>Thank you for using nginx.</em></p>
     </body>
