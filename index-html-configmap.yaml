@@ -70,6 +70,11 @@ data:
     <h1>test5!</h1>
     <p>test page2.</p>
     <button onclick="goBack()">page before </button>
+    <script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
 
     <p><em>Thank you for using nginx.</em></p>
     </body>
@@ -84,6 +89,11 @@ data:
       </head>  
       <body>  
       <button onclick="goBack()">page before </button>
+      <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
         <table class="class1">  
           <tr>  
             <td class="class2">Kubernetes Platform</td>  
