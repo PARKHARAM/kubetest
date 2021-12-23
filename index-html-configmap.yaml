@@ -10,7 +10,8 @@ data:
     </br>
     <h1>Hello! This is a configmap Index file </h1>
     <button onclick="window.location.href='https://www.naver.com'">NAVER</button>
-    <button onclick="goBack()">page before </button>
+    <button onclick="window.location.href='35.221.86.96:5601 '">NAVER</button>
+    <button onclick="goBack()">page before </button>  
     <button onclick="window.location.href='index2.html'">index2</button>
     <button onclick="window.location.href='test5.html'">test5</button>
     <script>
