@@ -69,6 +69,7 @@ data:
     <body>
     <h1>test5!</h1>
     <p>test page2.</p>
+    <button onclick="goBack()">page before </button>
 
     <p><em>Thank you for using nginx.</em></p>
     </body>
@@ -82,6 +83,7 @@ data:
         <link rel="stylesheet" href="main.css">  
       </head>  
       <body>  
+      <button onclick="goBack()">page before </button>
         <table class="class1">  
           <tr>  
             <td class="class2">Kubernetes Platform</td>  
