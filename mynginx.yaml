@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: gkfka133/mynginx3:latest
+        image: gcr.io/pjt-an3-gketest-dev/mynginx3:latest
         ports:
         - containerPort: 80
