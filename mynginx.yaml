@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: https://hub.docker.com/repository/docker/gkfka133/mynginx3:latest
+        image: gkfka133/mynginx3:latest
         ports:
         - containerPort: 80
