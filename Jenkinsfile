@@ -9,7 +9,7 @@
         steps {
           withCredentials([file(credentialsId: 'gketest', variable: 'GC_KEY')]) {
             sh 'gcloud auth activate-service-account --key-file=${GC_KEY}'
-            sh ("gcloud container clusters get-credentials pjt-an3-gketest-dev-gke --region asia-northeast1 --project pjt-an3-gketest-dev")
+            sh ("gcloud container clusters get-credentials eloquent-marker-338005-gke --region asia-northeast3 --project eloquent-marker-338005")
             sh ("/usr/local/bin/kubectl apply -f rbac.yaml")
             sh ("/usr/local/bin/kubectl apply -f elk.yaml")
             sh ("/usr/local/bin/kubectl apply -f elk-service.yaml")
